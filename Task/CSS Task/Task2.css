@@ -1,0 +1,61 @@
+.vertical{
+    width:140px;
+  
+    color:white;
+    border: 1px solid black;
+    margin-bottom: 100px;
+    padding:20px;
+    font-size: 20px;
+
+}
+.a{
+    background-color: rgb(131, 241, 241);
+
+    display: block;
+    padding: 10px;
+  color: blue;
+}
+
+.vertical div:first-child {
+    background-color: orange;
+    color: white;
+
+  }
+
+  /*.vertical div:nth-child(2) {
+    background-color: orange;
+    color: white;
+
+
+  }
+
+  .vertical div:last-child {
+    background-color: orange;
+    color: white;
+  } */
+
+
+  /*horizontal*/
+  .horizontal {
+    display: flex;  /* This makes the container horizontal */
+    border: 1px solid black;
+    padding: 10px;
+    width: fit-content;
+    font-size: 20px;
+}
+
+.h {
+    background-color: lightgray;
+    padding: 10px 20px;
+    border-right: 1px solid blue;
+    color: blue;
+}
+
+
+
+.h.active {
+    background-color: #636161;
+    color: white;
+    font-weight: bold;
+}
+
